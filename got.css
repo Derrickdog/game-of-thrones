@@ -4,6 +4,7 @@ body {
 	background-attachment: fixed;
 	font-family: Verdana, Arial, sans-serif;
 }
+
 #wrapper {
 	margin: auto;
 	width: 950px;
@@ -11,12 +12,14 @@ body {
 	color: #000000;
 	padding-top: 30px;
 }
+
 header {
 	background-color: #000000;
 	background-image: url(logo2.png);
 	background-repeat: no-repeat;
 	height: 240px;
 }
+
 nav ul {
 	list-style-type: none;
 	text-align: center;
@@ -25,24 +28,30 @@ nav ul {
 	padding: 10px;
 	font-family: "Game of Thrones", Arial, sans-serif;
 }
+
 nav li {
 	display: inline;
 }
+
 nav a {
 	text-decoration: none;
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
 nav a:link {
 	color: #FEFCEF;
 }
+
 nav a:visited {
 	color: #FEFCEF;
 }
+
 nav a:hover {
 	color: #000000;
 	background-color: #FEFCEF;
 }
+
 main {
 	background-color: #FEFCEF; 
 	color: #000000;
@@ -50,44 +59,55 @@ main {
 	padding: 10px 20px;
 	overflow: auto;
 }
+
 main img {
 	padding: 0px; 
 	margin: -20px;
 	padding-bottom: 20px;
 }
+
 main a {
 	text-decoration: none;
 }
+
 main a:link {
 	color: #883C24
 }
+
 main a:visited {
 	color: #883C24
 }
+
 main a:hover {
 	text-decoration: underline;
 }
+
 p img {
 	margin-top: 10px;
 }
+
 h1 {
 	color: #000000;
 	font-family: "Game of Thrones", Arial, sans-serif;
 	font-size: 2.5em;
 	padding-bottom: 20px;
 }
+
 h2 {
 	color: #000000;
 	font-family: Arial, sans-serif;
 	font-size: 1.9em;
 }
+
 h3 {
 	font-family: Arial, sans-serif;
 }
+
 h4 {
 	font-family: "Game of Thrones", Arial, sans-serif;
 	font-size: 1.9em;
 }
+
 footer {
 	font-size: 70%;
 	text-align: center;
@@ -96,6 +116,7 @@ footer {
 	color: #FEFCEF;
 	clear: both;
 }
+
 @font-face {
 	font-family: "Game of Thrones";
 	src: url(game_of_thrones.ttf);
